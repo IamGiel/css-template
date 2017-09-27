@@ -254,18 +254,18 @@ h5 {
 }
 
 #label1 {
-	height: 45px;
+	height: 73px;
     width: 233px;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    font-size: 16px;
-    letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: 6px;
     float: left;
     position: relative;
-    bottom: 36px;
-    left: 15px;
-    margin: -67px 0px 0px 0px;
+    bottom: 26px;
+    left: 19px;
+    margin: -86px 0px -9px 0px;
     padding-top: 20px;
     -webkit-transition: width 1s;
     transition: width 1s;
@@ -273,8 +273,6 @@ h5 {
     transition: width 1s;
     -ms-transition: width 1s;
     transition: width 1s;
-
-
 }
 #label1:hover {
 	width:20px;
