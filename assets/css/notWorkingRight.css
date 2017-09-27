@@ -1,0 +1,173 @@
+
+
+body {
+	width:960px;
+	margin-left: 155px;
+}
+
+/*header section*/
+#yourName {
+	position:relative;
+  	display:inline-block;
+	
+	height: 66px;
+	width:179px;
+	background-color: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left:50px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/*actual name*/
+#name {
+	font-size: 27px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:white;
+	text-align: center;
+	
+}
+/*"About Me"*/
+#aboutMe {
+	font-size: 27px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	color:#4aaaa5;
+
+	margin-left: 23px;
+}
+
+#line-AboutMe {
+	width:574px;
+}
+
+/*figure out how to move the paragraph up with the imgPhoto*/
+#imagePhoto {
+	float:left;
+	margin: 1px 17px 10px;
+}
+
+p {
+	margin-left: 15px;
+	margin-right: 25px;
+	margin-top: 10px;
+	position:relative;
+	text-align: justify;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#navs {
+	position:relative;
+  	display:inline-block;
+
+	height: 20px;
+	width:250px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left:370px;
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navButtons {
+	margin-left: 1px;
+	color: gray;
+}
+
+#topHR {
+	position:relative;
+  	display:block;
+  	float:left;
+
+	margin-top:0px; 
+	margin-bottom:0px;
+	width: 960px;
+	height:1px;
+}
+
+/*main content section*/
+
+#mainContent {
+	float:left;
+	display:inline-block;
+
+	margin-left:0px;
+	margin-top: 0px;
+	
+    background-image: url("../images/background.png");
+    
+	height:478px;
+	width:960px;
+
+
+}
+
+#whiteBox {
+	float:left;
+	display:inline-block;
+
+	margin-left:50px;
+	margin-top: 43px;
+	
+	background-color: white; /*test background*/
+
+	height:400px;
+	width:475px;
+}
+
+/*div that nests the icons*/
+#connectMeBox {
+	float:left;
+	display:inline-block;
+
+	margin-left:70px;
+	margin-top: 43px;
+	
+	background-color: white; /*test background*/
+	
+	height:200px;
+	width:300px;
+}
+
+/* div that contains icons*/
+#links {
+	position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+
+/*footer section*/
+#border {
+	position:relative;
+  	display:inline-block;
+	
+	height: 66px;
+	width:960px;
+	background-color: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left:0px;
+	margin-bottom: 0px;
+	margin-top: -8px;
+}
+
+h5 {
+	text-align: center;
+}
+
+#LogoStack {
+	position: fixed;
+    bottom: 375px;
+    left: 938px;
+}
+
+
+
+
+
+
+
+
+
