@@ -1,10 +1,10 @@
 
 
 body {
-	width:960px;
-	height: 800px;
-	margin-left: 10px;
-	align-content: center;
+	width: 960px;
+    height: 800px;
+    margin-left: 0px;
+    align-content: center;
 }
 
 /*header section*/
@@ -77,8 +77,10 @@ body {
 
 /*figure out how to wrap the paragraph up with the imgPhoto*/
 #imagePhoto {
-	float:left;
-	margin: 1px 17px 10px;
+	float: left;
+    margin: 1px 17px 10px;
+    height: 200px;
+    width: 200px;
 }
 
 p {
@@ -92,18 +94,17 @@ p {
 }
 
 #navs {
-	position:relative;
-  	display:inline-block;
-
-	height: 20px;
-	width:290px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	margin-left:370px;
-	
-	font-size: 16px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-decoration: none; /*this doesnt work*/	
+	position: relative;
+    float: right;
+    display: inline-block;
+    height: 20px;
+    width: 290px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    right: -89px;
 }
 
 /*----this code animates the navbars on hover------- */
@@ -134,7 +135,7 @@ a:hover {
 
 	margin-top:0px; 
 	margin-bottom:0px;
-	width: 958px;
+	width: 133%;
 	height:1px;
 }
 
@@ -142,16 +143,13 @@ a:hover {
 
 /* this is the background image for main content */
 #mainContent {
-	float:left;
-	display:inline-block;
-
-	margin-left:0px;
-	margin-top: 0px;
-	
-    background-image: url("../images/background.png");
-    
-	height:900px;
-	width:960px;
+	float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url(../images/background.png);
+    height: 255%;
+    width: 133%;
 }
 
 /* white box that contains the main content */
@@ -173,20 +171,20 @@ a:hover {
 	float:left;
 	display:inline-block;
 
-	margin-left:70px;
+	margin-left:42px;
 	margin-top: 43px;
 	
 	background-color: white; /*test background*/
 	
 	height:200px;
-	width:300px;
+	width:270px;
 }
 
 /* div that contains icons */
 #links {
 	position: relative;
     top: 20px;
-    left: 50px;
+    left: 32px;
 }
 
 #icons {
@@ -224,20 +222,20 @@ a:hover {
 /*footer section*/
 #hrFooter {
 	height: 6px;
-    width: 960px;
+    width: 120%;
     background-color: #4aaaa5;
     z-index: 300;
-    position: relative;
-    bottom: 76px;
+    position: fixed;
+    bottom: 115px;
 }
 
 #footer {
-	position: relative;
+	position: fixed;
     display: block;
     z-index: 100;
     margin: 0 auto;
-    height: 84px;
-    width: 960px;
+    height: 102px;
+    width: 100%;
     background-color: #666666;
     color: white;
     padding-top: 10px;
@@ -245,7 +243,7 @@ a:hover {
     margin-left: 0px;
     margin-bottom: 0px;
     margin-top: -9px;
-    top: -78px;
+    bottom: 11px;
 }
 
 h5 {
@@ -253,34 +251,32 @@ h5 {
 }
 
 #thumb1 {
-	height:165px;
-	width:150px;
+	height:299px;
+	width:262px;
 	padding-top: 20px;
 	margin:10px 10px 10px 40px;
 	float:left;
 }
 
 #label1 {
-	height:20px;
-	width:150px;
-	background-color:#4aaaa5;
-	color:white;
-	text-align: center;
-	font-size: 16px; 
-	letter-spacing: 1px;
-	float:left;
-	position: relative;
-	left:15px;
-	margin: -67px 0px 0px 0px;
-	padding-top: 20px;
-
-/*animate the hover property with transitions*/
-	
-	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+	height: 45px;
+    width: 233px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    float: left;
+    position: relative;
+    bottom: 36px;
+    left: 15px;
+    margin: -67px 0px 0px 0px;
+    padding-top: 20px;
+    -webkit-transition: width 1s;
     transition: width 1s;
-    -moz-transition: width 1s; /* For Mozilla 3.1 to 6.0 */
+    -moz-transition: width 1s;
     transition: width 1s;
-    -ms-transition: width 1s; /* For Microsoft 3.1 to 6.0 */
+    -ms-transition: width 1s;
     transition: width 1s;
 
 
@@ -292,16 +288,13 @@ h5 {
 
 /************** this IDs is for Portfolio.html file only to accomodate larger content***************/
 #mainContent-Portfolio {
-	float:left;
-	display:inline-block;
-
-	margin-left:0px;
-	margin-top: 0px;
-	
-    background-image: url("../images/background.png");
-    
-	height:900px;
-	width:960px;
+	float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url(../images/background.png);
+    height: 255%;
+    width: 133%;
 
 
 }
@@ -316,8 +309,8 @@ h5 {
 	
 	background-color: white; /*test background */
 
-	height:713px;
-	width:475px;
+	height:75%%;
+	width:650px;
 }
 
 /******************** end portfolio ID properties *************/
@@ -327,41 +320,44 @@ h5 {
 form {
 	float: left;
     display: inline-block;
-    margin-left: 13px;
+    margin-left: 19px;
     margin-top: 9px;
     background-color: white;
     height: 134px;
-    width: 449px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:gray;
-
+    width: 95%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
 }
 
 input {
-	width: 445px;
+	width: 94%;
     height: 24px;
-    margin-top:6px; 
-    margin-bottom:6px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#d8d5d5;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #d8d5d5;
     -webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 textarea {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#d8d5d5;
+    color: black;
     -webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 14px;
+    width: 94%;
 }
 
 #submit {
-	width: 343px;
+	width: 136px;
     background-color: #4aaaa5;
-    margin-left: 49px;
-    color:white;
+    color: white;
+    margin-left: 217px;
+    display: block;
 }
 
 /******************** end Contact ID properties *************/
