@@ -9,17 +9,16 @@ body {
 
 /*header section*/
 #yourName {
-	position:relative;
-  	display:inline-block;
-	
-	height: 66px;
-	width:179px;
-	background-color: #4aaaa5; /*teal*/
-	padding-top: 10px;
-	padding-bottom: 5px;
-	margin-left:50px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	position: relative;
+    display: inline-block;
+    height: 66px;
+    width: 179px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 147px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /*actual name*/
@@ -104,7 +103,7 @@ p {
     font-size: 16px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
-    right: -89px;
+    right: -183px;
 }
 
 /*----this code animates the navbars on hover------- */
@@ -129,14 +128,13 @@ a:hover {
 }
 
 #topHR {
-	position:relative;
-  	display:block;
-  	float:left;
-
-	margin-top:0px; 
-	margin-bottom:0px;
-	width: 133%;
-	height:1px;
+	position: relative;
+    display: block;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 151%;
+    height: 1px;
 }
 
 /*main content section*/
@@ -149,21 +147,18 @@ a:hover {
     margin-top: 0px;
     background-image: url(../images/background.png);
     height: 255%;
-    width: 133%;
+    width: 151%;
 }
 
 /* white box that contains the main content */
 #whiteBox {
-	float:left;
-	display:inline-block;
-
-	margin-left:50px;
-	margin-top: 43px;
-	
-	background-color: white; /*test background */
-
-	height:400px;
-	width:650px;
+	float: left;
+    display: inline-block;
+    margin-left: 148px;
+    margin-top: 43px;
+    background-color: white;
+    height: 400px;
+    width: 650px;
 }
 
 /* white box that contains the icons */
@@ -226,7 +221,7 @@ a:hover {
     background-color: #4aaaa5;
     z-index: 300;
     position: fixed;
-    bottom: 115px;
+    bottom: 102px;
 }
 
 #footer {
@@ -243,7 +238,7 @@ a:hover {
     margin-left: 0px;
     margin-bottom: 0px;
     margin-top: -9px;
-    bottom: 11px;
+    bottom: -4px;
 }
 
 h5 {
@@ -294,7 +289,7 @@ h5 {
     margin-top: 0px;
     background-image: url(../images/background.png);
     height: 255%;
-    width: 133%;
+    width: 151%;
 
 
 }
@@ -304,13 +299,20 @@ h5 {
 	float:left;
 	display:inline-block;
 
-	margin-left:50px;
+	margin-left:148px;
 	margin-top: 43px;
 	
 	background-color: white; /*test background */
 
 	height:75%%;
 	width:650px;
+}
+
+#Photo-Portfolio {
+    float: left;
+    margin: 1px 17px 10px;
+    height: 200px;
+    width: 231px;
 }
 
 /******************** end portfolio ID properties *************/
