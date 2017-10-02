@@ -159,6 +159,9 @@ a:hover {
     background-color: white;
     height: 470px;
     width: 650px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
 }
 
 /* white box that contains the icons */
@@ -173,6 +176,9 @@ a:hover {
 	
 	height:200px;
 	width:270px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
 }
 
 /* div that contains icons */
@@ -306,6 +312,9 @@ h5 {
 
 	height:75%%;
 	width:650px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
 }
 
 #Photo-Portfolio {
