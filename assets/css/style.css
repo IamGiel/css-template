@@ -98,13 +98,14 @@ p {
     float: right;
     display: inline-block;
     height: 20px;
-    width: 436px;
+    width: 100%;
     padding-top: 29px;
     padding-bottom: 5px;
     font-size: 16px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
-    right: -296px;
+    right: -825px;
+    top: -59px;
 }
 
 /*----this code animates the navbars on hover------- */
@@ -132,7 +133,7 @@ a:hover {
 	position: relative;
     display: block;
     float: left;
-    margin-top: 0px;
+    margin-top: -54px;
     margin-bottom: 0px;
     width: 151%;
     height: 1px;
@@ -145,7 +146,7 @@ a:hover {
 	float: left;
     display: inline-block;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: -52px;
     background-image: url(../images/background.png);
     height: 255%;
     width: 151%;
@@ -293,11 +294,10 @@ h5 {
 	float: left;
     display: inline-block;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: -54px;
     background-image: url(../images/background.png);
     height: 255%;
     width: 151%;
-
 
 }
 
