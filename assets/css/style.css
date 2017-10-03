@@ -98,13 +98,13 @@ p {
     float: right;
     display: inline-block;
     height: 20px;
-    width: 290px;
+    width: 333px;
     padding-top: 29px;
     padding-bottom: 5px;
     font-size: 16px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
-    right: -183px;
+    right: -198px;
 }
 
 /*----this code animates the navbars on hover------- */
