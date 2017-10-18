@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+
+</head>
+
+
+<body>
+	
+
+
+	<div class="jumbotron-center">
+		<!-- Display instruction to user -->
+		<h1 id="parentNode">Hangman <br><hr>Astronomical Objects</h1> 
+			<h2 id="messageBoard">Use the keyboard to type letters!</h2>
+			<h2 id="buttonHere"></h2><h2 id="displayWin"></h2><h2 id="tryAgain"></h2>
+		<!-- display the blank spaces that corresponds to length of the word -->
+		<h1><span id="blankSpaces"></span></h1>
+	
+	</div>
+
+	<br><br>
+		<!-- display the users input -->
+	<div class="container-center">
+		<div class="row">
+
+			<div class="col-md-4">
+				<!-- empty -->
+			</div>
+		
+			<div class="col-md-4"  id="box">
+				<p id="insideBox">Letters typed: </p>
+				<h2 id="userInput"><span id="appendHere"></span></h2>
+			</div>
+
+	
+			<div class="col-md-4">
+				
+			</div>
+		</div>
+	</div>
+
+	<div  class="container>	
+		<div class="row">
+			<div class="col-md-4">
+			<!-- empty -->
+			</div>
+	
+			<div class="col-md-4">
+				<h2 id="removeLater"><p id="correctGuesses"></p></h2>
+				
+			</div>
+
+			<div class="col-md-4">
+			<!-- empty -->
+			</div>
+		</div>
+
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+
+
+	
+</html>
+<!-- "granite", "crystal", "flint", "halite", "chert", "angelo", -->
+

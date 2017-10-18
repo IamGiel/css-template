@@ -1,381 +1,79 @@
- 
-
-body {
-	width: 960px;
-    height: 800px;
-    margin-left: 0px;
-    align-content: center;
-}
-
-/*header section*/
-#yourName {
-	position: relative;
-    display: inline-block;
-    height: 66px;
-    width: 179px;
-    background-color: #4aaaa5;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-left: 147px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-/*actual name*/
-#name {
-	font-size: 27px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:white;
-	text-align: center;	
-
-	-webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
-    transition: color 1s;
-    -moz-transition: color 1s; /* For Mozilla 3.1 to 6.0 */
-    transition: color 1s;
-    -ms-transition: color 1s; /* For Microsoft 3.1 to 6.0 */
-    transition: color 1s;
-}
-#name:hover {
-	font-family: Cochin, Georgia, Garamond, ‘Times New Roman’, Times, serif;
-	color:#3F454D;
-}
-/*"About Me"*/
-#aboutMe {
-	font-size: 27px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-align: left;
-	color:#4aaaa5;
-
-	margin-left: 23px;
-
-	-webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
-    transition: color 1s;
-    -moz-transition: color 1s; /* For Mozilla 3.1 to 6.0 */
-    transition: color 1s;
-    -ms-transition: color 1s; /* For Microsoft 3.1 to 6.0 */
-    transition: color 1s;
-}
-#aboutMe:hover {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#3F454D;
-}
-
-
-#connectMe {
-	font-size: 22px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-align: left;
-	color:#4aaaa5;
-
-	margin-left: 43px;
-}
-
-#line-AboutMe {
-	width:574px;
-}
-
-/*figure out how to wrap the paragraph up with the imgPhoto*/
-#imagePhoto {
-	float: left;
-    margin: 1px 17px 10px;
-    height: 200px;
-    width: 200px;
-}
-
-p {
-	margin-left: 15px;
-    margin-right: 25px;
-    margin-top: 10px;
-    position: relative;
-    text-align: justify;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 24px;
-}
-
-#navs {
-	position: relative;
-    float: right;
-    display: inline-block;
-    height: 20px;
-    width: 100%;
-    padding-top: 29px;
-    padding-bottom: 5px;
-    font-size: 16px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-decoration: none;
-    right: -825px;
-    top: -59px;
-}
-
-/*----this code animates the navbars on hover------- */
-a {
-	font-size: 16px;
-	text-decoration:none; /*this removes the underline of the #nav links*/	
-	-webkit-transition: font-size 0.7s; /* For Safari 3.1 to 6.0 */
-    transition: font-size 0.7s;
-    -moz-transition: font-size 0.7s; /* For Mozilla 3.1 to 6.0 */
-    transition: font-size 0.7s;
-    -ms-transition: font-size 0.7s; /* For Microsoft 3.1 to 6.0 */
-    transition: font-size 0.7s;
-} 
-a:hover {
-	font-size: 26px;
-}
-/*----END navbar animation------- */
-
-.navButtons {
-	margin-left: 1px;
-	color: gray;
-}
-
-#topHR {
-	position: relative;
-    display: block;
-    float: left;
-    margin-top: -54px;
-    margin-bottom: 0px;
-    width: 151%;
-    height: 1px;
-}
-
-/*main content section*/
-
-/* this is the background image for main content */
-#mainContent {
-	float: left;
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: -52px;
-    background-image: url(../images/background.png);
-    height: 255%;
-    width: 151%;
-}
-
-/* white box that contains the main content */
-#whiteBox {
-	float: left;
-    display: inline-block;
-    margin-left: 148px;
-    margin-top: 43px;
-    background-color: white;
-    height: 470px;
-    width: 650px;
-    border-color: #d9d9d9;
-    border-style: solid;
-    border-width: thin;
-}
-
-/* white box that contains the icons */
-#connectMeBox {
-	float:left;
-	display:inline-block;
-
-	margin-left:42px;
-	margin-top: 43px;
-	
-	background-color: white; /*test background*/
-	
-	height:200px;
-	width:270px;
-    border-color: #d9d9d9;
-    border-style: solid;
-    border-width: thin;
-}
-
-/* div that contains icons */
-#links {
-	position: relative;
-    top: 20px;
-    left: 32px;
-}
-
-#icons {
-	height:63px;
-	width:63px;
-
-	-webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
-    transition: width 0.7s;
-    -moz-transition: width 0.7s; /* For Mozilla 3.1 to 6.0 */
-    transition: width 0.7s;
-    -ms-transition: width 0.7s; /* For Microsoft 3.1 to 6.0 */
-    transition: width 0.7s;
-}
-
-#icons-Stack {
-	height: 55px;
-    width: 62px;
-    margin-bottom: 3px;
-
-    -webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
-    transition: width 0.7s;
-    -moz-transition: width 0.7s; /* For Mozilla 3.1 to 6.0 */
-    transition: width 0.7s;
-    -ms-transition: width 0.7s; /* For Microsoft 3.1 to 6.0 */
-    transition: width 0.7s;
-}
-
-#icons:hover, #icons-Stack:hover {
-	width:100px;
-
-}
-
-
-
-
-/*footer section*/
-#hrFooter {
-	height: 6px;
-    width: 120%;
-    background-color: #4aaaa5;
-    z-index: 300;
-    position: fixed;
-    bottom: 64px;
-}
-
-#footer {
-	position: fixed;
-    display: block;
-    z-index: 100;
-    margin: 0 auto;
-    height: 64px;
-    width: 100%;
-    background-color: #666666;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: -9px;
-    bottom: -4px;
-}
-
-h5 {
-	text-align: center; /*centers the copyright*/
-}
-
-#thumb1 {
-	height:299px;
-	width:262px;
-	padding-top: 20px;
-	margin:10px 10px 10px 40px;
-	float:left;
-}
-
-#label1 {
-	height: 51px;
-    width: 233px;
-    background-color: #4aaaa5;
-    color: white;
+.jumbotron-center {
     text-align: center;
-    font-size: 20px;
-    letter-spacing: 6px;
-    float: left;
-    position: relative;
-    bottom: 26px;
-    left: 19px;
-    margin: -86px 0px -9px 0px;
-    padding-top: 20px;
-    -webkit-transition: width 1s;
-    transition: width 1s;
-    -moz-transition: width 1s;
-    transition: width 1s;
-    -ms-transition: width 1s;
-    transition: width 1s;
+    color: teal;
+    height: 366px;
+    padding-top: 40px;
 }
 
-#label1:hover {
-	width:20px;
-	letter-spacing: 0px;
+#messageBoard, #userInput {
+	color:teal;
 }
 
-/************** this IDs is for Portfolio.html file only to accomodate larger content***************/
-#mainContent-Portfolio {
-	float: left;
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: -54px;
-    background-image: url(../images/background.png);
-    height: 255%;
-    width: 151%;
-
+h2#displayWin {
+	color: green;
 }
 
-/* white box that contains the main content */
-#whiteBox-Portfolio {
-	float:left;
-	display:inline-block;
+h2#tryAgain {
+    color:red;
+}
 
-	margin-left:148px;
-	margin-top: 43px;
-	
-	background-color: white; /*test background */
+#removeLater {
+	color:teal;
+}
 
-	height:75%%;
-	width:650px;
-    border-color: #d9d9d9;
+#box {
     border-style: solid;
-    border-width: thin;
+    border-color: teal;
+    height: 223px;
+    width: 33.33333333%;
+    margin: 15px;
+    margin-left: 0;
+}
+#insideBox {
+	color:teal;
+	font-size: 15px;
+	text-align: center;
 }
 
-#Photo-Portfolio {
-    float: left;
-    margin: 1px 17px 10px;
-    height: 200px;
-    width: 231px;
+p#correctGuesses {
+    
+    width: 108%;
 }
 
-/******************** end portfolio ID properties *************/
-
-/************** this IDs is for Contact.html file only to accomodate larger content***************/
-
-form {
-	float: left;
-    display: inline-block;
-    margin-left: 19px;
-    margin-top: 9px;
-    background-color: white;
-    height: 134px;
-    width: 95%;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: gray;
-}
-
-input {
-	width: 94%;
-    height: 24px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-left: 18px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #d8d5d5;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-}
-
-textarea {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    margin-left: 14px;
-    width: 94%;
-}
-
-#submit {
-	width: 136px;
-    background-color: #4aaaa5;
+#winnerButton { 
+    border-radius: 25px;
+    background: green;
+    padding: 4px;
+    width: 193px;
+    height: 25px;
+    font-size: 11px;
     color: white;
-    margin-left: 217px;
-    display: block;
+}
+#loserButton { 
+    border-radius: 25px;
+    background: teal;
+    padding: 4px;
+    width: 193px;
+    height: 25px;
+    font-size: 11px;
+    color: white;
 }
 
-/******************** end Contact ID properties *************/
+@media screen and (max-width: 991px) {
+    #box {
+    border-style: solid;
+    border-color: teal;
+    height: 223px;
+    width: 40.333333%;
+    margin: 15px;
+    margin-left: 32%;
+    margin-top: 26%;
+    }
 
-
-
-
-
-
+    p#correctGuesses {
+    width: 108%;
+    margin-left: 36%;
+    } 
+}
+  
+    
