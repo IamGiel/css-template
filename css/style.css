@@ -1,0 +1,945 @@
+ 
+
+#body {
+	width: 960px;
+    height: 800px;
+    margin-left: 0px;
+    align-content: center;
+}
+
+#body-portfolio {
+    width: 960px;
+    height: 800px;
+    margin-left: 0px;
+    align-content: center;
+}
+
+/*header section*/
+#yourName {
+    position: relative;
+    display: inline-block;
+    height: 66px;
+    width: 179px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 147px;
+    margin-bottom: 0px;
+    margin-top: -12px;
+}
+
+/*actual name*/
+#name {
+	font-size: 27px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:white;
+	text-align: center;	
+
+	-webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
+    transition: color 1s;
+    -moz-transition: color 1s; /* For Mozilla 3.1 to 6.0 */
+    transition: color 1s;
+    -ms-transition: color 1s; /* For Microsoft 3.1 to 6.0 */
+    transition: color 1s;
+}
+#name:hover {
+	font-family: Cochin, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+	color:#3F454D;
+}
+/*"About Me"*/
+#aboutMe {
+	font-size: 27px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	color:#4aaaa5;
+
+	margin-left: 23px;
+
+	-webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
+    transition: color 1s;
+    -moz-transition: color 1s; /* For Mozilla 3.1 to 6.0 */
+    transition: color 1s;
+    -ms-transition: color 1s; /* For Microsoft 3.1 to 6.0 */
+    transition: color 1s;
+}
+#aboutMe:hover {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#3F454D;
+}
+
+
+#connectMe {
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	color:#4aaaa5;
+
+	margin-left: 43px;
+}
+
+#line-AboutMe {
+	width:574px;
+}
+
+/*figure out how to wrap the paragraph up with the imgPhoto*/
+#imagePhoto {
+	float: left;
+    margin: 1px 17px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+p {
+	margin-left: 15px;
+	margin-right: 25px;
+	margin-top: 10px;
+	position:relative;
+	text-align: justify;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+}
+
+#navs {
+	position: relative;
+    float: right;
+    display: inline-block;
+    height: 20px;
+    width: 290px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    right: -183px;
+}
+
+/*----this code animates the navbars on hover------- */
+a {
+	font-size: 16px;
+	text-decoration:none; /*this removes the underline of the #nav links*/	
+	-webkit-transition: font-size 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.7s;
+    -moz-transition: font-size 0.7s; /* For Mozilla 3.1 to 6.0 */
+    transition: font-size 0.7s;
+    -ms-transition: font-size 0.7s; /* For Microsoft 3.1 to 6.0 */
+    transition: font-size 0.7s;
+} 
+a:hover {
+	font-size: 26px;
+}
+/*----END navbar animation------- */
+
+.navButtons {
+	margin-left: 1px;
+	color: gray;
+}
+
+#topHR {
+	position: relative;
+    display: block;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 151%;
+    height: 1px;
+}
+
+/*main content section*/
+
+/* this is the background image for main content */
+#mainContent {
+	float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url(../images/background.png);
+    height: 255%;
+    width: 151%;
+}
+
+/* white box that contains the main content */
+#whiteBox {
+	float: left;
+    display: inline-block;
+    margin-left: 148px;
+    margin-top: 43px;
+    background-color: white;
+    height: 470px;
+    width: 650px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* white box that contains the icons */
+#connectMeBox {
+	float:left;
+	display:inline-block;
+
+	margin-left:42px;
+	margin-top: 43px;
+	
+	background-color: white; /*test background*/
+	
+	height:200px;
+	width:270px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+/* for portfolio only */
+#connectMeBox-portfolio {
+    float:left;
+    display:inline-block;
+
+    margin-left:42px;
+    margin-top: 43px;
+    
+    background-color: white; /*test background*/
+    
+    height:200px;
+    width:270px;
+}
+
+
+/* div that contains icons */
+#links {
+	position: relative;
+    top: 20px;
+    left: 32px;
+}
+
+#icons {
+	height:63px;
+	width:63px;
+
+	-webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.7s;
+    -moz-transition: width 0.7s; /* For Mozilla 3.1 to 6.0 */
+    transition: width 0.7s;
+    -ms-transition: width 0.7s; /* For Microsoft 3.1 to 6.0 */
+    transition: width 0.7s;
+}
+
+#icons-Stack {
+	height: 55px;
+    width: 62px;
+    margin-bottom: 3px;
+
+    -webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.7s;
+    -moz-transition: width 0.7s; /* For Mozilla 3.1 to 6.0 */
+    transition: width 0.7s;
+    -ms-transition: width 0.7s; /* For Microsoft 3.1 to 6.0 */
+    transition: width 0.7s;
+}
+
+#icons:hover, #icons-Stack:hover {
+	width:100px;
+}
+
+
+
+
+/*footer section*/
+#hrFooter {
+	height: 6px;
+    width: 120%;
+    background-color: #4aaaa5;
+    z-index: 300;
+    position: fixed;
+    bottom: 64px;
+}
+
+#footer {
+	position: fixed;
+    display: block;
+    z-index: 100;
+    margin: 0 auto;
+    height: 64px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: -9px;
+    bottom: -4px;
+}
+
+h5 {
+	text-align: center; /*centers the copyright*/
+}
+
+#thumb1 {
+	height:299px;
+	width:262px;
+	padding-top: 20px;
+	margin:10px 10px 10px 40px;
+	float:left;
+}
+
+#label1 {
+	height: 51px;
+    width: 233px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 6px;
+    float: left;
+    position: relative;
+    bottom: 26px;
+    left: 19px;
+    margin: -86px 0px -9px 0px;
+    padding-top: 20px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    transition: width 1s;
+    -ms-transition: width 1s;
+    transition: width 1s;
+}
+
+#label1:hover {
+	width:20px;
+	letter-spacing: 0px;
+}
+
+/************** this IDs is for Portfolio.html file only to accomodate larger content***************/
+#mainContent-Portfolio {
+	float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url(../images/background.png);
+    height: 255%;
+    width: 151%;
+
+
+}
+
+/* white box that contains the main content */
+#whiteBox-Portfolio {
+	float:left;
+	display:inline-block;
+
+	margin-left:148px;
+	margin-top: 43px;
+	
+	background-color: white; /*test background */
+
+	height:75%%;
+	width:650px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+#Photo-Portfolio {
+    float: left;
+    margin: 1px 17px 10px;
+    height: 200px;
+    width: 231px;
+}
+
+/******************** end portfolio ID properties *************/
+
+/************** this IDs is for Contact.html file only to accomodate larger content***************/
+
+form {
+	float: left;
+    display: inline-block;
+    margin-left: 19px;
+    margin-top: 9px;
+    background-color: white;
+    height: 134px;
+    width: 95%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+}
+
+input {
+	width: 94%;
+    height: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #d8d5d5;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+textarea {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 14px;
+    width: 94%;
+}
+
+#submit {
+	width: 136px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 217px;
+    display: block;
+}
+
+/******************** end Contact ID properties *************/
+
+
+/*************MEDIA QUERY MAX 640px ***************/
+/************************************************************/
+/************************************************************/
+
+
+@media only screen and (max-width: 640px) {
+    
+#body {
+    width: 960px;
+    height: 900px;
+    margin-left: 0px;
+    align-content: center;
+}
+
+#body-portfolio {
+    width: 960px;
+    height: 1350px;
+    margin-left: 0px;
+    align-content: center;
+}
+
+    #yourName {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    width: 151%;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}  
+
+     #name {
+    font-size: 27px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 259px;
+    position: color 1s;
+    transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+    -ms-transition: color 1s;
+    transition: color 1s;
+}
+    #navs {
+    position: relative;
+    float: right;
+    display: block;
+    height: 49px;
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    right: -85px;
+    letter-spacing: 5px;
+}
+    .navButtons {
+    margin-left: 12px;
+    margin-right: 12px;
+    color: gray;
+}
+
+   #whiteBox {
+    float: left;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 43px;
+    background-color: white;
+    height: 28%;
+    width: 546px;
+    position: relative;
+    left: -122px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+    #imagePhoto {
+    float: left;
+    margin: 1px 145px 10px;
+    height: 203px;
+    width: 252px;
+    opacity: 0.6;
+}
+
+    p {
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 10px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 25px;
+}
+
+    #submit {
+    width: 136px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 189px;
+    display: block;
+}
+
+    #connectMeBox {
+    float: left;
+    display: inline-block;
+    margin-left: 69px;
+    margin-top: 43px;
+    background-color: white;
+    height: 200px;
+    width: 549px;
+    position: relative;
+    bottom: -29%;
+    left: -740px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 14px;
+    width: 94%;
+    height: 215px;
+}
+
+#connectMeBox-portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 59px;
+    margin-top: 43px;
+    background-color: white;
+    height: 200px;
+    width: 581px;
+    position: relative;
+    bottom: -82%;
+    left: -760px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+#whiteBox-Portfolio {
+    float: left;
+    position: relative;
+    left: -120px;
+    display: inline-block;
+    margin-left: 139px;
+    margin-top: 43px;
+    background-color: white;
+    height: 75%%;
+    width: 583px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+#thumb1 {
+    height: 299px;
+    width: 247px;
+    padding-top: 20px;
+    margin: 10px 10px 118px 40px;
+    float: left;
+}
+
+#Photo-Portfolio {
+    float: left;
+    margin: 1px 17px 10px;
+    height: 306px;
+    width: 193%;
+    background-color: black;
+}
+
+#label1 {
+    height: 51px;
+    width: 193%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 6px;
+    float: left;
+    position: relative;
+    bottom: 26px;
+    left: 17px;
+    margin: -86px 0px -9px 0px;
+    padding-top: 20px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    transition: width 1s;
+    -ms-transition: width 1s;
+    transition: width 1s;
+}
+
+#footer {
+    position: fixed;
+    display: block;
+    z-index: 100;
+    margin: 0 auto;
+    height: 64px;
+    width: 105%;
+    background-color: #666666;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: -13px;
+    margin-bottom: 0px;
+    margin-top: -9px;
+    bottom: -4px;
+}
+
+#hrFooter {
+    height: 6px;
+    width: 120%;
+    background-color: #4aaaa5;
+    z-index: 300;
+    position: fixed;
+    bottom: 64px;
+    left: -8px;
+}
+    } /*cloing tag*/
+
+/*************MEDIA QUERY MIN 641px MAX 768px ***************/
+/************************************************************/
+/************************************************************/
+
+@media only screen and  (min-width: 641px) and (max-width: 768px){
+    #yourName {
+    position: relative;
+    display: inline-block;
+    height: 66px;
+    width: 179px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 52px;
+    margin-bottom: 0px;
+    margin-top: -12px;
+}
+
+    #navs {
+    position: relative;
+    float: right;
+    display: inline-block;
+    height: 20px;
+    width: 669px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    right: -188px;
+}
+    #whiteBox {
+    float: left;
+    display: inline-block;
+    margin-left: 28px;
+    margin-top: 43px;
+    background-color: white;
+    height: 470px;
+    width: 694px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+    #connectMeBox {
+    float: left;
+    display: block;
+    background-color: white;
+    height: 200px;
+    width: 681px;
+    position: relative;
+    top: 508px;
+    right: 733px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+#whiteBox-Portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 54px;
+    margin-top: 43px;
+    background-color: white;
+    height: 75%%;
+    width: 650px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+#connectMeBox-portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 43px;
+    background-color: white;
+    height: 200px;
+    width: 653px;
+    position: relative;
+    bottom: -56%;
+    left: -45%;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 14px;
+    height: 169px;
+    width: 94%;
+}
+
+#submit {
+    width: 136px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 252px;
+    display: block;
+}
+
+#footer {
+    position: fixed;
+    display: block;
+    z-index: 100;
+    margin: 0 auto;
+    height: 64px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: -8px;
+    margin-bottom: 0px;
+    margin-top: -9px;
+    bottom: -4px;
+}
+#hrFooter {
+    height: 6px;
+    width: 120%;
+    background-color: #4aaaa5;
+    z-index: 300;
+    position: fixed;
+    bottom: 64px;
+    margin-left: -13px;
+}
+    p {
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 10px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 25px;
+}
+    } /*cloing tag*/
+
+/************* MEDIA QUERY MIN 769px MAX 980px **************/
+/************************************************************/
+/************************************************************/
+
+@media only screen and  (min-width: 769px) and (max-width: 980px){
+    #body-portfolio {
+    width: 960px;
+    height: 880px;
+    margin-left: 0px;
+    align-content: center;
+}
+
+    #yourName {
+    position: relative;
+    display: inline-block;
+    height: 81px;
+    top: -13px;
+    width: 184px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 147px;
+    margin-bottom: 0px;
+    margin-top: -12px;
+}
+
+    #navs {
+    position: relative;
+    float: right;
+    display: inline-block;
+    height: 20px;
+    width: 290px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    right: 9px;
+}
+
+    #topHR {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: -13px;
+    margin-bottom: 0px;
+    width: 151%;
+    height: 1px;
+}
+    #mainContent {
+    float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -10px;
+    background-image: url(../images/background.png);
+    height: 255%;
+    width: 151%;
+}
+    #imagePhoto {
+    float: left;
+    margin-left: 94px;
+    margin-right: 72px;
+    height: 200px;
+    width: 211px;
+}
+    #whiteBox {
+    float: left;
+    display: inline-block;
+    margin-left: 148px;
+    margin-top: 43px;
+    background-color: white;
+    height: 837px;
+    width: 436px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+
+    #connectMeBox-portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 42px;
+    margin-top: 43px;
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+    p {
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 28px;
+}
+    form {
+    float: left;
+    display: inline-block;
+    margin-left: 19px;
+    margin-top: 9px;
+    background-color: white;
+    height: 134px;
+    width: 91%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+}
+#submit {
+    width: 136px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 254px;
+    display: block;
+}
+
+    #mainContent-Portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -11px;
+    background-image: url(../images/background.png);
+    height: 266%;
+    width: 151%;
+}
+    #whiteBox-Portfolio {
+    float: left;
+    display: inline-block;
+    margin-left: 148px;
+    margin-top: 43px;
+    background-color: white;
+    height: 75%%;
+    width: 420px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: thin;
+}
+    #Photo-Portfolio {
+    float: left;
+    height: 200px;
+    width: 362px;
+    margin-left: -10px;
+
+}
+
+    #label1 {
+    height: 51px;
+    width: 362px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 6px;
+    float: left;
+    position: relative;
+    bottom: 26px;
+    left: -10px;
+    margin: -86px 0px -9px 0px;
+    padding-top: 20px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    transition: width 1s;
+    -ms-transition: width 1s;
+    transition: width 1s;
+}
+    }
+
+
